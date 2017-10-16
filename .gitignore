@@ -3,3 +3,4 @@
 !.idea/projectCodeStyle.xml
 !.idea/vcs.xml
 *.iml
+/target
