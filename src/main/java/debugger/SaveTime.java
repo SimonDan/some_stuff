@@ -19,7 +19,7 @@ public class SaveTime
     {
       List<Person> friends = person.getFriends();
       for (Person friend : friends)
-        System.out.println(friend.getName() + " is a friend of " + person.getName() + ". " +
+        System.out.println(friend.getName() + " is a friend of " + person.getName() + " " +
                                (PersonUtil.isTheOldest(friend, friends) ? " He is the oldest of his friends!" : ""));
     }
   }

@@ -82,7 +82,7 @@ public class WebserverFileDownloader
         final String content = _urlContentToString(pUrl);
         if (content == null)
           return;
-        if (!url.getFile().contains(".")) //Parse directories of the webserver only
+        if (!url.getFile().contains("")) //Parse directories of the webserver only
           _findContent(content, pUrl).forEach(pNewUrl -> _downloadAndFindMore(pNewUrl, pRootDestination));
       }
     }
